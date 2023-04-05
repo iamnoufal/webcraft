@@ -106,10 +106,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 1.2; }
 
 h1, .h1 {
-  font-size: calc(1.425rem + 2.1vw); }
-  @media (min-width: 1200px) {
-    h1, .h1 {
-      font-size: 3rem; } }
+  font-size: calc(1.425rem + 2.1vw); 
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 3rem; 
+    color: #gold 
+  }  
+}
 
 h2, .h2 {
   font-size: calc(1.365rem + 1.38vw); }
@@ -2350,7 +2354,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #dc3545; }
 
 .btn-light {
-  --bs-btn-color: #111;
+  --bs-btn-color:#darkgoldenrod;
   --bs-btn-bg: #f8f9fa;
   --bs-btn-border-color: #f8f9fa;
   --bs-btn-hover-color: #111;
