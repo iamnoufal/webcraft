@@ -6703,7 +6703,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important; }
+  background-color: #051c46 !important; }
 
 .bg-white {
   --bs-bg-opacity: 1;
@@ -9189,8 +9189,8 @@ img {
 .bg-gray-900 {
   background-color: #202020; }
 
-.bg-black {
-  background-color: #111; }
+.bg-dark {
+  background-color: #030627 !important; }
 
 .bg-white-90 {
   background-color: rgba(255, 255, 255, 0.9); }
