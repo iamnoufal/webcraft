@@ -100,16 +100,15 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fs-5" href="/about" aria-label="A sample content page">
+          <a class="nav-link fs-5" href="/about" aria-label="This is for about page of phc">
             About RHC
           </a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link fs-5" href="system.html" aria-label="A system message page">
-            System
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="/rules" aria-label="Go to the rules and regulations">
+            Rules
           </a>
-        </li> -->
-
+        </li>
       </ul>
       <!-- <a href="https://templatedeck.com/klar-html-template.html" aria-label="Download this template"
         class="btn btn-outline-light">
@@ -169,7 +168,7 @@
       <div class="container px-vw-5 py-vh-5">
         <div class="row d-flex align-items-center">
           <div class="col-12 col-lg-7 " data-aos="fade-right">
-            <span class="h3  fw-lighter">Description</span>
+            <p class="h3 mb-2 fw-lighter">Description</p>
             <h2 class="lead fs-5 text-muted">The event is a Front-end Web Development Hackathon aimed at students
               with a passion for design and creativity. The first round requires participants to design a wireframe
               (UI/UX testing) within the allotted time, followed by the development round where they are given a
@@ -240,7 +239,7 @@
             </div>  
             <!-- till here -->
 
-            <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+            <div class="card bg-transparent mb-5" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase1details">
               <div class="bg-dark shadow rounded-5 p-0">
                 <img src="img/Round1-Wireframe.jpg" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
@@ -253,7 +252,7 @@
               </div>
             </div>
 
-            <div class="card bg-transparent d-none d-md-block d-sm-none" data-aos="zoom-in-up">
+            <div class="card bg-transparent d-none d-md-block d-sm-none" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase3details">
               <div class="bg-dark shadow rounded-5 p-0">
                 <img src="img/Round3-Judging.jpg" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
@@ -275,7 +274,7 @@
             </div>
             <!-- till here  -->
 
-            <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
+            <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase2details">
               <div class="bg-dark shadow rounded-5 p-0">
                 <img src="img/Round2-Frontend.png" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
@@ -289,7 +288,7 @@
             </div>
 
             <!-- Visible only in small device range -->
-            <div class="card bg-transparent d-none d-sm-block d-md-none d-lg-none" data-aos="zoom-in-up">
+            <div class="card bg-transparent d-none d-sm-block d-md-none d-lg-none" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase3details">
               <div class="bg-dark shadow rounded-5 p-0">
                 <img src="img/Round3-Judging.jpg" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
@@ -303,6 +302,47 @@
               </div>
             </div>
             <!-- till here -->
+          </div>
+        </div>
+
+        <div class="modal fade" id="phase1details" tabindex="-1" aria-labelledby="phase1detailsLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-black">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="phase1detailsLabel">Wireframing Round:</h1>
+                <!-- <button type="button" id="phase1detailsCancel" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              </div>
+              <div class="modal-body">  
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="phase2details" tabindex="-1" aria-labelledby="phase2detailsLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-black">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="phase2detailsLabel">Frontend Development Round</h1>
+                <!-- <button type="button" id="phase2detailsCancel" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              </div>
+              <div class="modal-body">  
+                <p class="text-secondary">After successfully completing the first round, We will also be hosting a fun segment where we will ask the participant to take out the chit from the bowl. Every chit has a number corresponding to the particular wireframe, which we will assign to each wireframe. We will ask the companies to provide us with the domain and theme to code. Participants are set free to code on any domain and theme they are interested in, around the Wireframe they are allotted ( Wireframes can be Round 1 frames or Company allotted designs)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="phase3details" tabindex="-1" aria-labelledby="phase3detailsLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-black">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="phase3detailsLabel">Judging and Evaluation Round</h1>
+                <!-- <button type="button" id="phase3detailsCancel" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              </div>
+              <div class="modal-body">  
+                <p class="text-secondary">Once we got the submission of the applications. There will be a panel of 4-5 judges to evaluate the projects based on the predetermined criteria.</p>
+                <p class="text-secondary">Judging rounds will be held in the booth system where participants have to showcase their application to each judge present in the booth</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -775,7 +815,7 @@
               <span class="h5 text-secondary fw-lighter">About</span>
               <h2 class="display-4">Our Sponsers</h2>
             </div>
-            <div class="rounded-5 bg-black p-5 shadow mt-5 gradient" data-aos="zoom-in-left">
+            <div class="rounded-5 bg-black p-5 shadow mt-5" data-aos="zoom-in-left">
 
               <p class="lead">"Add some content about our sponsers."</p>
               <div class="d-flex justify-content-start align-items-center border-top pt-3">
@@ -867,7 +907,7 @@
       </div>
     </div>
   </footer>
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
