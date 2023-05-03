@@ -9,13 +9,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png">
-  <meta name="author" content="Holger Koenemann">
-  <meta name="generator" content="Eleventy v2.0.0">
-  <meta name="HandheldFriendly" content="true">
   <title>Webcraft - Paradox</title>
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/css/bootstrap/bootstrap-grid.css">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,200;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -84,21 +92,20 @@
 
       <ul class="navbar-nav mx-auto mx-md-0 mb-2 mb-lg-0 list-group list-group-horizontal">
         <li class="nav-item">
-          <a class="nav-link fs-5" href="/" aria-label="Homepage">
+          <a class="nav-link fs-5" href="" aria-label="Homepage">
             Home
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fs-5" href="/about" aria-label="A sample content page">
+          <a class="nav-link fs-5" href="about.html" aria-label="A sample content page">
             About RHC
           </a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link fs-5" href="system.html" aria-label="A system message page">
-            System
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="/rules" aria-label="Go to the rules and regulations">
+            Rules
           </a>
-        </li> -->
-
+        </li>
       </ul>
       <!-- <a href="https://templatedeck.com/klar-html-template.html" aria-label="Download this template"
         class="btn btn-outline-light">
@@ -117,8 +124,9 @@
             <h1 class="display-huge mt-3 mb-3 lh-1"> WEBCRAFT </h1>
           </div>
           <div class="col-12 col-xl-8">
-            <p class="lead text-secondary">Webcraft is an exciting front-end development event designed for students to showcase their design skills and technical abilities by building a wireframe and a responsive website.
-              </p>
+            <p class="lead text-secondary">Webcraft is an exciting front-end development event designed for students to
+              showcase their design skills and technical abilities by building a wireframe and a responsive website.
+            </p>
           </div>
           <div class="col-12 text-center">
             <a href="#" class="btn btn-xl btn-light"> Register Now
@@ -157,7 +165,7 @@
       <div class="container px-vw-5 py-vh-5">
         <div class="row d-flex align-items-center">
           <div class="col-12 col-lg-7 " data-aos="fade-right">
-            <span class="h3  fw-lighter">Description</span>
+            <p class="h3 mb-2 fw-lighter">Description</p>
             <h2 class="lead fs-5 text-muted">The event is a Front-end Web Development Hackathon aimed at students
               with a passion for design and creativity. The first round requires participants to design a wireframe
               (UI/UX testing) within the allotted time, followed by the development round where they are given a
@@ -177,13 +185,11 @@
                   <li class="timeline-item mb-5">
                     <span class="timeline-icon">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+                        class="bi bi-rocket-takeoff-fill" viewBox="0 0 16 16">
                         <path
-                          d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z" />
+                          d="M12.17 9.53c2.307-2.592 3.278-4.684 3.641-6.218.21-.887.214-1.58.16-2.065a3.578 3.578 0 0 0-.108-.563 2.22 2.22 0 0 0-.078-.23V.453c-.073-.164-.168-.234-.352-.295a2.35 2.35 0 0 0-.16-.045 3.797 3.797 0 0 0-.57-.093c-.49-.044-1.19-.03-2.08.188-1.536.374-3.618 1.343-6.161 3.604l-2.4.238h-.006a2.552 2.552 0 0 0-1.524.734L.15 7.17a.512.512 0 0 0 .433.868l1.896-.271c.28-.04.592.013.955.132.232.076.437.16.655.248l.203.083c.196.816.66 1.58 1.275 2.195.613.614 1.376 1.08 2.191 1.277l.082.202c.089.218.173.424.249.657.118.363.172.676.132.956l-.271 1.9a.512.512 0 0 0 .867.433l2.382-2.386c.41-.41.668-.949.732-1.526l.24-2.408Zm.11-3.699c-.797.8-1.93.961-2.528.362-.598-.6-.436-1.733.361-2.532.798-.799 1.93-.96 2.528-.361.599.599.437 1.732-.36 2.531Z" />
                         <path
-                          d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z" />
-                        <path
-                          d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z" />
+                          d="M5.205 10.787a7.632 7.632 0 0 0 1.804 1.352c-1.118 1.007-4.929 2.028-5.054 1.903-.126-.127.737-4.189 1.839-5.18.346.69.837 1.35 1.411 1.925Z" />
                       </svg>
                     </span>
 
@@ -222,56 +228,118 @@
 
         <div class="row gx-5">
           <div class="col-12 col-md-6">
-            <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+
+            <!-- This will be only visible in mobile devices -->
+            <div class="p-5 pt-0 mt-5 d-none d-md-none d-lg-none d-sm-block" data-aos="fade">
+              <span class="h5 text-secondary fw-lighter">Phases of the craft</span>
+              <h2 class="display-4">There is a lot we don´t know. Here is a small sneak peek</h2>
+            </div>
+            <!-- till here -->
+
+            <div class="card bg-transparent mb-5" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase1details">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="img/webp/abstract3.webp" width="582" height="327" alt="abstract image"
+                <img src="img/Round1-Wireframe.jpg" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
                   <h2 class="fw-lighter">01. Wireframing Round</h2>
-                  <p class="pb-4 text-secondary">In this round, we are expecting that all the participants will design the Wireframe and submit their work within the allotted time</p>
+                  <p class="pb-4 text-secondary">In this round, we are expecting that all the participants will design
+                    the Wireframe and submit their work within the allotted time</p>
                   <!-- <a href="#" class="link-fancy link-fancy-light">Read more</a> -->
                 </div>
               </div>
             </div>
 
-            <div class="card bg-transparent" data-aos="zoom-in-up">
+            <div class="card bg-transparent d-none d-md-block d-sm-none" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase3details">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="img/webp/abstract2.webp" width="582" height="442" alt="abstract image"
+                <img src="img/Round3-Judging.jpg" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
                   <h2 class="fw-lighter">03. Judging and Evaluation Round</h2>
-                  <p class="pb-4 text-secondary">We expect the candidates to prepare well for this round, as they will have to represent themselves in front of judges. Their chances of getting an internship and job will rise according to judges' judgment and points.</p>
+                  <p class="pb-4 text-secondary">We expect the candidates to prepare well for this round, as they will
+                    have to represent themselves in front of judges. Their chances of getting an internship and job will
+                    rise according to judges' judgment and points.</p>
                   <!-- <a href="#" class="link-fancy link-fancy-light">Read more</a> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <div class="p-5 pt-0 mt-5" data-aos="fade">
+            <!-- This will be invisible in mobile view -->
+            <div class="p-5 pt-0 mt-5 d-none d-md-block" data-aos="fade">
               <span class="h5 text-secondary fw-lighter">Phases of the craft</span>
               <h2 class="display-4">There is a lot we don´t know. Here is a small sneak peek</h2>
             </div>
-            <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
+            <!-- till here  -->
+
+            <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase2details">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="img/webp/abstract17.webp" width="582" height="390" alt="abstract image"
+                <img src="img/Round2-Frontend.png" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
                   <h2 class="fw-lighter">02. Frontend Development Round</h2>
-                  <p class="pb-4 text-secondary">Selected participants have to code the frontend over the domain and theme with the respective wireframe they picked from the bowl.</p>
+                  <p class="pb-4 text-secondary">Selected participants have to code the frontend over the domain and
+                    theme with the respective wireframe they picked from the bowl.</p>
                   <!-- <a href="#" class="link-fancy link-fancy-light">Read more</a> -->
                 </div>
               </div>
             </div>
 
-            <!-- <div class="card bg-transparent" data-aos="zoom-in-up">
+            <!-- Visible only in small device range -->
+            <div class="card bg-transparent d-none d-sm-block d-md-none d-lg-none" data-aos="zoom-in-up" data-bs-toggle="modal" data-bs-target="#phase3details">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="img/webp/abstract4.webp" width="582" height="327" alt="abstract image"
+                <img src="img/Round3-Judging.jpg" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
-                  <a href="#" class="link-fancy link-fancy-light">Read more</a>
+                  <h2 class="fw-lighter">03. Judging and Evaluation Round</h2>
+                  <p class="pb-4 text-secondary">We expect the candidates to prepare well for this round, as they will
+                    have to represent themselves in front of judges. Their chances of getting an internship and job will
+                    rise according to judges' judgment and points.</p>
+                  <!-- <a href="#" class="link-fancy link-fancy-light">Read more</a> -->
                 </div>
               </div>
-            </div> -->
+            </div>
+            <!-- till here -->
+          </div>
+        </div>
+
+        <div class="modal fade" id="phase1details" tabindex="-1" aria-labelledby="phase1detailsLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-black">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="phase1detailsLabel">Wireframing Round:</h1>
+                <!-- <button type="button" id="phase1detailsCancel" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              </div>
+              <div class="modal-body">  
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="phase2details" tabindex="-1" aria-labelledby="phase2detailsLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-black">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="phase2detailsLabel">Frontend Development Round</h1>
+                <!-- <button type="button" id="phase2detailsCancel" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              </div>
+              <div class="modal-body">  
+                <p class="text-secondary">After successfully completing the first round, We will also be hosting a fun segment where we will ask the participant to take out the chit from the bowl. Every chit has a number corresponding to the particular wireframe, which we will assign to each wireframe. We will ask the companies to provide us with the domain and theme to code. Participants are set free to code on any domain and theme they are interested in, around the Wireframe they are allotted ( Wireframes can be Round 1 frames or Company allotted designs)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="phase3details" tabindex="-1" aria-labelledby="phase3detailsLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-black">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="phase3detailsLabel">Judging and Evaluation Round</h1>
+                <!-- <button type="button" id="phase3detailsCancel" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+              </div>
+              <div class="modal-body">  
+                <p class="text-secondary">Once we got the submission of the applications. There will be a panel of 4-5 judges to evaluate the projects based on the predetermined criteria.</p>
+                <p class="text-secondary">Judging rounds will be held in the booth system where participants have to showcase their application to each judge present in the booth</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -314,7 +382,7 @@
           <!--Section: FAQ-->
           <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
 
-            <h2 class="text-center mb-4 pb-2 text-warning fw-bold" data-aos="fade-up">FAQ's</h2>
+            <h2 class="text-center mb-4 pb-2 text-warning" data-aos="fade-up">FAQ's</h2>
             <p class="text-center mb-5" data-aos="fade-up">
               Find the answers for the most frequently asked questions below
             </p>
@@ -322,8 +390,8 @@
               <a href="#shortExampleAnswer1collapse" data-bs-toggle="collapse" aria-expanded="false"
                 aria-controls="shortExampleAnswer1collapse"
                 class="list-group-item list-group-item-action bg-dark text-white pt-4 ">
-                <div class="d-flex w-100 justify-content-between fw-lighter">
-                  <h6 class="mb-1 fw-lighter">1) Who can participate in this hackathon?
+                <div class="d-flex w-100 justify-content-between">
+                  <h6 class="mb-1">1) Who can participate in this hackathon?
                   </h6>
                 </div>
                 <!-- Collapsed content -->
@@ -467,18 +535,22 @@
                         style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/hritik_s_05/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item"
+                            href="https://www.linkedin.com/in/hritik-shyam-gupta-228984200/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
@@ -497,18 +569,21 @@
                         style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/im.adamya_09/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.linkedin.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
@@ -527,18 +602,21 @@
                         style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/anshu_l16/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.linkedin.com/in/anshul-singh-aa307a206"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
@@ -549,7 +627,7 @@
                   <p class="mb-0 text-muted">Member</p>
                 </div>
               </div>
-              <div class="col-md-6 col-xl-3 mt-1-9 wow fadeInUp" data-wow-delay=".5s"
+              <div class="col-md-6 col-xl-3 mt-1 wow fadeInUp" data-wow-delay=".5s"
                 style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                 <div class="team-style07" data-aos="fade">
                   <div class="team-thumb mb-1-9" data-aos="fade">
@@ -557,18 +635,22 @@
                         style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/divij_2309/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/divijvignesh"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item"
+                            href="https://www.linkedin.com/in/divij-vignesh-153b1a204/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
@@ -589,18 +671,21 @@
                         style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/_iam_noufal/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.linkedin.com/in/iamnoufal"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
@@ -619,18 +704,21 @@
                         style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/niteshsinghofficials/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.linkedin.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
@@ -645,30 +733,32 @@
                 style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                 <div class="team-style07" data-aos="fade">
                   <div class="team-thumb mb-1-9">
-                    <div class="thumb"><img src="https://bootdey.com/img/Content/avatar/avatar3.png"
-                        class="rounded-circle img-fluid" style="height:150px; width: 150px; object-fit: contain;"
-                        alt="..."></div>
+                    <div class="thumb"><img src="img/team/Smitha-Image.jpg" class="rounded-circle img-fluid"
+                        style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/s._.smitha/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.linkedin.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
                       </ul>
                     </div>
                   </div>
-                  <h3 class="h5 mb-1"> <a href="#!" class="text-white">Smitha Sivakumar</a></h3>
+                  <h3 class="h6 mb-1"> <a href="#!" class="text-white">Smitha Sivakumar</a></h3>
                   <p class="mb-0 text-muted">Volunteer</p>
                 </div>
               </div>
@@ -676,23 +766,25 @@
                 style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                 <div class="team-style07" data-aos="fade">
                   <div class="team-thumb mb-1-9">
-                    <div class="thumb"><img src="https://bootdey.com/img/Content/avatar/avatar3.png"
-                        class="rounded-circle img-fluid" style="height:150px; width: 150px; object-fit: contain;"
-                        alt="..."></div>
+                    <div class="thumb"><img src="img/team/Ayush-Image.jpg" class="rounded-circle img-fluid"
+                        style="height:150px; width: 150px; object-fit: contain;" alt="..."></div>
                     <div class="team-social">
                       <ul class="styled-icons">
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.instagram.com/mr_sinha_214_/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-instagram" viewBox="0 0 16 16">
                               <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://twitter.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-twitter" viewBox="0 0 16 16">
                               <path
                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                             </svg></a></li>
-                        <li><a class="styled-icons-item" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <li><a class="styled-icons-item" href="https://www.linkedin.com/"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-linkedin" viewBox="0 0 16 16">
                               <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg></a></li>
@@ -714,7 +806,7 @@
         <div class="row d-flex gx-5 align-items-center">
           <div class="col-12 col-lg-6">
             <div class="rounded-5 bg-black p-5 shadow" data-aos="zoom-in-right">
-            
+
               <p class="text-secondary lead">"Add some content about our sponsers."</p>
               <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
                 <img src="img/webp/person14.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
@@ -725,7 +817,7 @@
                 </div>
               </div>
             </div>
-            <div class="rounded-5 bg-black p-5 shadow mt-5" data-aos="zoom-in-right"> 
+            <div class="rounded-5 bg-black p-5 shadow mt-5" data-aos="zoom-in-right">
               <p class="text-secondary lead">"Add some content about our sponsers."</p>
               <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
                 <img src="img/webp/person13.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
@@ -743,8 +835,8 @@
               <span class="h5 text-secondary fw-lighter">About</span>
               <h2 class="display-4">Our Sponsers</h2>
             </div>
-            <div class="rounded-5 bg-black p-5 shadow mt-5 gradient" data-aos="zoom-in-left">
-              
+            <div class="rounded-5 bg-black p-5 shadow mt-5" data-aos="zoom-in-left">
+
               <p class="lead">"Add some content about our sponsers."</p>
               <div class="d-flex justify-content-start align-items-center border-top pt-3">
                 <img src="img/webp/person16.webp" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
@@ -770,7 +862,7 @@
         <div class="cta d-block d-md-flex align-items-center px-5 rounded-5" data-aos="zoom-in-left" loading="lazy">
           <div>
             <h2 class="mb-0">Ready for our hackathon?</h2>
-            <h3 class="text-dark">Let's get started!</h3>
+            <h3 class="text-muted">Let's get started!</h3>
           </div>
           <div class="ml-auto">
             <a href="#" style="background: #bf9740;" class="btn btn-lg">Register</a>
@@ -835,7 +927,7 @@
       </div>
     </div>
   </footer>
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
