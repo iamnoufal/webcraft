@@ -273,3 +273,7 @@ a:hover {
   margin-top: 0;
   padding-left: 0 !important
 }
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
