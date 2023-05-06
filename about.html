@@ -81,45 +81,50 @@
 
 <body class="bg-dark text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
 
-  <nav id="navScroll" class="navbar navbar-dark bg-dark px-vw-5" tabindex="0">
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-dark bg-dark px-vw-5" tabindex="0">
     <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent"
+        aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="">
         <span class="ms-md-1 mt-1 fw-bolder me-md-5">Webcraft</span>
       </div>
+      <div class="collapse navbar-collapse bg-dark justify-content-end" id="navbarcontent">
+        <ul class="navbar-nav  mx-auto mx-md-0 mb-2 mb-lg-0 list-group ">
+          <li class="nav-item">
+            <a class="nav-link fs-6" href="/" aria-label="Homepage">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6" href="/#timeline" aria-label="Events Timeline">
+              Timeline
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6" href="/#sponsors" aria-label="Sponsers">
+              Sponsers
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6" href="/about" aria-label="A sample content page">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6" href="/#faqs" aria-label="Sponsers">
+              FAQ's
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6" href="/rules" aria-label="Go to the rules and regulations">
+              Rules
+            </a>
+          </li>
 
-      <ul class="navbar-nav mx-auto mx-md-0 mb-2 mb-lg-0 list-group list-group-horizontal">
-        <li class="nav-item">
-          <a class="nav-link fs-6" href="" aria-label="Homepage">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-6" href="index.html#timeline" aria-label="Events Timeline">
-            Timeline
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-6" href="" aria-label="Sponsers">
-            Sponsers
-          </a>
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link fs-6" href="about.html" aria-label="A sample content page">
-            About
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-6" href="index.html#faqs" aria-label="Sponsers">
-            FAQ's
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-6" href="rules.html" aria-label="Go to the rules and regulations">
-            Rules
-          </a>
-        </li>
-
-      </ul>
+        </ul>
+      </div>
     </div>
   </nav>
 
