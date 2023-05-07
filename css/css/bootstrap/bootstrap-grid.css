@@ -1928,7 +1928,8 @@ html {
   padding-left: 1.5rem !important; }
 
 .p-5 {
-  padding: 3rem !important; }
+  padding: 3rem !important;
+  cursor: pointer; }
 
 .pt-5,
 .py-5 {
