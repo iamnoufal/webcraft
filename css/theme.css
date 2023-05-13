@@ -2368,7 +2368,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #111;
   --bs-btn-disabled-bg: #f8f9fa;
   --bs-btn-disabled-border-color: #f8f9fa;
-  background-image: linear-gradient(75deg, #fbb200, transparent)
+  background: linear-gradient(0deg, black, transparent 100%), linear-gradient(300deg, #08083a, transparent 21%), linear-gradient(198deg, rgba(255, 193, 7, 0.2) 11%, transparent 0%), linear-gradient(50deg, #6610f2 10%, #6f42c1 20%, #d63384 35%, #dc3545 65%, #fd7e14 83%, #ffc107 91%)
 }
 
 .btn-dark {
@@ -9190,7 +9190,7 @@ img {
   background-color: #202020; }
 
 .bg-dark {
-  background-color: #030627 !important; }
+  background-color: #02153c !important; }
 
 .bg-white-90 {
   background-color: rgba(255, 255, 255, 0.9); }

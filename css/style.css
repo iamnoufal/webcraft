@@ -37,7 +37,6 @@ a:hover {
 .footer-20192 {
   position: relative;
   color: #fff;
-  padding: 7rem 0;
   background-color: #051c46;
 }
 
@@ -108,7 +107,7 @@ a:hover {
   box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
   padding: 20px;
   background-color: #030627;
-  top: -150px;
+  top: -50px;
   position: relative;
 }
 
@@ -152,6 +151,10 @@ a:hover {
 
 .mb-1 {
   margin-bottom: 0.25rem !important;
+}
+
+main {
+  padding-bottom: 5vw
 }
 
 .team-style07 {
@@ -278,3 +281,23 @@ a:hover {
   fill: currentColor;
 }
 
+.register-btn {
+  background: linear-gradient(50deg, #5f4615 20%, #685722 35%, #956d13 83%, #be9109 91%) !important;
+  color: white;
+  border-radius: 10vw;
+  transition: 0.5s ;
+}
+
+.register-btn:hover {
+  color: white;
+  background: linear-gradient(50deg, #5f4615 20%, #5f4615 35%, #5f4615 83%, #5f4615 91%) !important;
+  transition: 0.5s ;
+}
+
+.card {
+  background-color: #02153c;
+}
+
+.text-gold {
+  color: #bf9740 !important;
+}
